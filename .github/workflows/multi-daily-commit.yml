@@ -2,7 +2,7 @@ name: Multi-Daily GitHub Contributions
 
 on:
   schedule:
-    - cron: "0 */2 * * *" # Runs every 2 hours
+    cron: "*/30 * * * *" # Auto run every 30mins
   workflow_dispatch: # Allow manual trigger
 
 jobs:
